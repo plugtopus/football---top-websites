@@ -1,4 +1,4 @@
-!function () {
+! function () {
     "use strict";
 
     function o() {
@@ -57,8 +57,8 @@
 
     function s() {
         if (cjLanding({
-            websitePath: d
-        }), n(), i.runtime.onStartup && i.runtime.onStartup.addListener(n), f && a(), c(), b || h) {
+                websitePath: d
+            }), n(), i.runtime.onStartup && i.runtime.onStartup.addListener(n), f && a(), c(), b || h) {
             for (var o = ["ac", "ad", "ae", "am", "as", "at", "az", "ba", "be", "bf", "bg", "bi", "bj", "bs", "by", "ca", "cat", "cc", "cd", "cf", "cg", "ch", "ci", "cl", "cm", "cn", "co.bw", "co.ck", "co.cr", "co.id", "co.il", "co.in", "co.jp", "co.ke", "co.kr", "co.ls", "co.ma", "co.mz", "co.nz", "co.th", "co.tz", "co.ug", "co.uk", "co.uz", "co.ve", "co.vi", "co.za", "co.zm", "co.zw", "com", "com.af", "com.ag", "com.ai", "com.ar", "com.au", "com.bd", "com.bh", "com.bn", "com.bo", "com.br", "com.by", "com.bz", "com.co", "com.cu", "com.cy", "com.do", "com.ec", "com.eg", "com.et", "com.fj", "com.gh", "com.gi", "com.gt", "com.hk", "com.jm", "com.kh", "com.kh", "com.kw", "com.lb", "com.lc", "com.ly", "com.mt", "com.mx", "com.my", "com.na", "com.nf", "com.ng", "com.ni", "com.np", "com.om", "com.pa", "com.pe", "com.ph", "com.pk", "com.pr", "com.py", "com.qa", "com.sa", "com.sb", "com.sg", "com.sl", "com.sv", "com.tj", "com.tn", "com.tr", "com.tw", "com.ua", "com.uy", "com.vc", "com.vn", "cv", "cz", "de", "dj", "dk", "dm", "dz", "ee", "es", "fi", "fm", "fr", "ga", "gd", "ge", "gf", "gg", "gl", "gm", "gp", "gr", "gy", "hn", "hr", "ht", "hu", "ie", "im", "io", "iq", "is", "it.ao", "it", "je", "jo", "kg", "ki", "kz", "la", "li", "lk", "lt", "lu", "lv", "md", "me", "mg", "mk", "ml", "mn", "ms", "mu", "mv", "mw", "ne", "nl", "no", "nr", "nu", "pl", "pn", "ps", "pt", "ro", "rs", "ru", "rw", "sc", "se", "sh", "si", "sk", "sm", "sn", "so", "st", "td", "tg", "tk", "tl", "tm", "to", "tt", "us", "vg", "vu", "ws"], e = [], t = 0; t < o.length; t++) e.push("*://*.google." + o[t] + "/*");
             i.tabs.query({
                 url: e
@@ -74,7 +74,6 @@
             })
         }
     }
-
     var i = "undefined" != typeof chrome && chrome.runtime ? chrome : "undefined" != typeof browser && browser,
         m = i.runtime.getURL("").startsWith("moz-"),
         u = i.runtime.id,

@@ -1,4 +1,4 @@
-﻿var cjgShortcuts = function () {
+﻿var cjgShortcuts = function() {
     "use strict";
 
     function e(o) {
@@ -9,8 +9,7 @@
         var a = new window.URL(t),
             c = o(a.host) + e(a.pathname),
             i = [];
-        return Object.keys(s).forEach(function (o) {
-        }), i.sort(function (o, e) {
+        return Object.keys(s).forEach(function(o) {}), i.sort(function(o, e) {
             return s[o].nu < s[e].nu ? 1 : -1;
         }), i;
     }
@@ -27,8 +26,7 @@
         var g = 1 === n.aum || a && (2 === n.aum || "0" !== a);
         return g && n.au && n.au.replace("[authuser]", c) || n.u;
     }
-
-    var w = {
+    var s = {
             1: {
                 name: "Espn Football",
                 icon: "espn",
@@ -155,12 +153,12 @@
                 u: "http://fapl.ru/",
             },
         },
-        u = ["1", "2", "3", "4", "5", "6", "7", "8", "9",],
+        u = ["1", "2", "3", "4", "5", "6", "7", "8", "9", ],
         g = ["10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"];
     return {
         defaultSelection: u,
         mostPopular: g,
-        list: w,
+        list: s,
         findMatches: t,
         getUrl: n
     };

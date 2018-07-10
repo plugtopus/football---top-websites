@@ -142,7 +142,6 @@ var browserStorage = function () {
             setItem: u
         }
     }
-
     var l = "undefined" != typeof chrome && chrome.runtime ? chrome : "undefined" != typeof browser && browser,
         i = l.storage,
         a = navigator.userAgent.toLowerCase().indexOf("firefox") !== -1,
